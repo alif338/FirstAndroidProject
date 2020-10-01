@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Antre Yuk!</string>
+    <string name="company">Company</string>
+    <string name="Address">Address</string>
+    <string name="popular">Antrian Tersedia :</string>
+    <string name="service_detail">
+        Details
+    </string>
+    <string name="keterangan">
+        * Wajib Pakai Masker\n
+        * Siapkan KTP, kartu ATM, serta buku rekening\n
+        * Hadir 10 menit sebelum Antrean\n
+        * Kontak : 08xxxxxxxxxx\n
+    </string>
+    <string name="pelayanan">Pelayanan :</string>
+    <string name="biodata">Biodata</string>
+    <string name="greetings">Halo, J-Flers!</string>
+    <string name="antre_count">Mengantre</string>
+    <string name="time_discount">Hemat Waktu</string>
+    <string name="todo">TODO</string>
+    <string name="about_me">About Me</string>
+    <string name="name_about">Nama : Muhammad Alif D</string>
+    <string name="email">Email : alifm26072000@gmail.com</string>
+    <string name="join_kelas">
+        Disclaimer: \n\n
+        Segala DESIGN &amp; KONSEP yang ada\n
+             tidak semua dari pribadi. Namun dari\n
+        kelompok pribadi, yang telah\n
+        mengerjakan suatu projek yang\n
+        berkonsepkan sama, berupa Web App
+    </string>
+    <string name="tips">tips</string>
+    <string name="petunjuk">Petunjuk :\n\n</string>
+    <string name="nomor_antrean_anda">Nomor Antrean Anda :</string>
+    <string name="queue">queue</string>
+    <string name="time_queue">Waktu Tunggu per Antrean :</string>
+    <string name="time_queue_val">+- 7 Menit</string>
+    <string name="klik_salah_satu">(Klik Salah Satu)</string>
+</resources>

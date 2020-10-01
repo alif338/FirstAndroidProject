@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="372dp"
+        android:background="@android:color/white">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="274dp"
+            android:contentDescription="@string/todo"
+            android:scaleType="fitXY"
+            android:src="@drawable/green_bg" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/img_item_photo"
+            android:layout_width="match_parent"
+            android:layout_height="122dp"
+            android:src="@drawable/profile"
+            android:translationY="30dp" />
+
+        <Button
+            android:id="@+id/bio"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_gravity="right"
+            android:layout_marginRight="20dp"
+            android:background="@color/green"
+            android:text="@string/biodata"
+            android:textColor="#FFFFFF"
+            android:translationY="20dp" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/greetings"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="28sp"
+            android:translationY="170dp" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="281dp"
+            android:layout_height="77dp"
+            android:layout_gravity="center_horizontal"
+            android:contentDescription="@string/todo"
+            android:elevation="20dp"
+            android:src="@drawable/count_bar"
+            android:translationY="230dp"
+            android:translationZ="20dp" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:paddingStart="20dp"
+            android:text="@string/popular"
+            android:textSize="18sp"
+            android:translationY="-25dp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:paddingStart="20dp"
+            android:text="@string/klik_salah_satu"
+            android:layout_gravity="bottom"/>
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="418dp">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_company"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            tools:listitem="@layout/item_row_company" />
+
+    </FrameLayout>
+
+</LinearLayout>
